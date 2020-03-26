@@ -290,6 +290,10 @@
     <Compile Include="MessageTypes\Trajectory\msg\JointTrajectoryPoint.cs" />
     <Compile Include="MessageTypes\Trajectory\msg\MultiDOFJointTrajectory.cs" />
     <Compile Include="MessageTypes\Trajectory\msg\MultiDOFJointTrajectoryPoint.cs" />
+    <Compile Include="MessageTypes\Utbot\msg\LyftProScanZone.cs" />
+    <Compile Include="MessageTypes\Utbot\msg\LyftProScanZoneList.cs" />
+    <Compile Include="MessageTypes\Utbot\srv\CreateLyftProScanZoneRequest.cs" />
+    <Compile Include="MessageTypes\Utbot\srv\CreateLyftProScanZoneResponse.cs" />
     <Compile Include="PointCloud.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Protocols\MessageEventArgs.cs" />
